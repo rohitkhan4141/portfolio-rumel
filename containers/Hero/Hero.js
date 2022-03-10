@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
         <div className='home__handle'>
           <Image
-            src='/assets/test.png'
+            src='https://drive.google.com/file/d/1TNGce3rJLtvOlV7HioM3DYmyTEJ0ddiR/view?usp=sharing'
             alt=''
             className='home__img'
             width={300}
