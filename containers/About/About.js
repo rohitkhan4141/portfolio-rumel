@@ -9,7 +9,7 @@ const About = () => {
       <TitleSection subtitle='My Intro' sectionName='About Me' />
       <div className='about__container container grid'>
         <Image
-          src='/assets/rohit.jpg'
+          src='https://drive.google.com/file/d/1La6Z6o3j8lr0X5VNk77g6WbwgWbqKV4z/view?usp=sharing'
           alt=''
           className='about__img'
           height={400}
