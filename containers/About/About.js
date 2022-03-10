@@ -9,8 +9,8 @@ const About = () => {
       <TitleSection subtitle='My Intro' sectionName='About Me' />
       <div className='about__container container grid'>
         <Image
-          src='https://drive.google.com/file/d/1C50X3xa-s_qcD1FCce8sRsISHIDM6CvT/view?usp=sharing'
-          alt=''
+          src='/Assets/rohit.jpg'
+          alt='Image Mostakin Ahmed'
           className='about__img'
           height={400}
           width={300}
