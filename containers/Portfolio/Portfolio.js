@@ -24,7 +24,7 @@ const portfolioContent = [
   },
   {
     name: "Ultra-Addons",
-    img: "https://drive.google.com/file/d/1EhPLiUJ9PEMKqrAOyvDn1o9QrH7PVziY/view?usp=sharing",
+    img: "/Assets/Ultra.png",
     Link: "https://rohitkhan4141.github.io/Ulrta-addons/",
     tags: "Js Websites",
   },
