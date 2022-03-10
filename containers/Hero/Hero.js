@@ -21,7 +21,7 @@ const Hero = () => {
           <h1 className='home__name'>Mostakin</h1>
           <h3 className='home__education'>Frontend Developer</h3>
           <div className='home__buttons'>
-            <a href='/Assets/cv.pdf' download className='button button--ghost'>
+            <a href='/Assets/cv-Update.pdf' download className='button button--ghost'>
               Download-CV
             </a>
             <a href='#about' className='button'>
