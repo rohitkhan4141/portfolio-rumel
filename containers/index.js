@@ -1,0 +1,9 @@
+export { default as About } from "./About/About.js";
+export { default as Contact } from "./Contact/Contact.js";
+export { default as Footer } from "./Footer/Footer.js";
+export { default as Header } from "./Header/Header.js";
+export { default as Hero } from "./Hero/Hero.js";
+export { default as Portfolio } from "./Portfolio/Portfolio.js";
+export { default as Services } from "./Services/Services.js";
+export { default as Skills } from "./Skills/Skills.js";
+export { default as Testimonials } from "./Testimonials/Testimonials.js";
