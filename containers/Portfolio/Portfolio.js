@@ -5,6 +5,12 @@ import PortFolioCard from "./PortFolioCard";
 
 const portfolioContent = [
   {
+    name: "Watch's World",
+    img: "/Assets/watchs-world.png",
+    Link: "https://final-project-25a6d.web.app/",
+    tags: "React Apps",
+  },
+  {
     name: "Netflix-Clone",
     img: "/Assets/netflix.png",
     Link: "https://netflix-clone-99ed7.firebaseapp.com/",
@@ -16,12 +22,7 @@ const portfolioContent = [
     Link: "https://dev-pettraoner.pantheonsite.io/",
     tags: "Wordpress",
   },
-  {
-    name: "Ecommerce Website",
-    img: "/Assets/ecom.JPG",
-    Link: "https://github.com/rohitkhan4141",
-    tags: "React Apps",
-  },
+
   {
     name: "Ultra-Addons",
     img: "/Assets/Ultra.png",
@@ -29,9 +30,9 @@ const portfolioContent = [
     tags: "Js Websites",
   },
   {
-    name: "Chat Application",
-    img: "/Assets/chatapp.png",
-    Link: "https://github.com/rohitkhan4141/chatApp",
+    name: "Mark's Fitness",
+    img: "/Assets/mark-fitness.png",
+    Link: "https://assingment11-262e9.web.app/",
     tags: "React Apps",
   },
 
