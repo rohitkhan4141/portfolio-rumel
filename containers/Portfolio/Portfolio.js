@@ -17,9 +17,9 @@ const portfolioContent = [
     tags: "React Apps",
   },
   {
-    name: "Pet Care",
-    img: "/Assets/pet.png",
-    Link: "https://dev-pettraoner.pantheonsite.io/",
+    name: "Photographer Portfolio",
+    img: "/Assets/photographer.png",
+    Link: "https://dev-photographyy.pantheonsite.io/",
     tags: "Wordpress",
   },
 
@@ -37,9 +37,9 @@ const portfolioContent = [
   },
 
   {
-    name: "Fitness",
-    img: "/Assets/fitness.png",
-    Link: "https://dev-fitnessconsultant.pantheonsite.io/",
+    name: "Yoga",
+    img: "/Assets/yoga.png",
+    Link: "https://dev-yogasweets.pantheonsite.io/",
     tags: "Wordpress",
   },
   {
