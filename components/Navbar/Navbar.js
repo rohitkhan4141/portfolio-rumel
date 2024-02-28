@@ -15,44 +15,44 @@ const Navbar = () => {
   const { mode, handleTheme } = useThemeSwitcher();
   console.log(mode);
   return (
-    <nav className='nav container'>
-      <Link href='#'>
-        <a className='nav__logo'>Mostakin</a>
+    <nav className="nav container">
+      <Link href="#">
+        <a className="nav__logo">Rumel Hossain</a>
       </Link>
 
-      <div className='nav__menu'>
-        <ul className='nav__list'>
-          <li className='nav__item'>
-            <Link href='#home'>
-              <a className='nav__link home active-link'>
+      <div className="nav__menu">
+        <ul className="nav__list">
+          <li className="nav__item">
+            <Link href="#home">
+              <a className="nav__link home active-link">
                 <BiHomeAlt />
               </a>
             </Link>
           </li>
-          <li className='nav__item'>
-            <Link href='#about'>
-              <a className='nav__link about'>
+          <li className="nav__item">
+            <Link href="#about">
+              <a className="nav__link about">
                 <BiUser />
               </a>
             </Link>
           </li>
-          <li className='nav__item'>
-            <Link href='#skills'>
-              <a className='nav__link skills'>
+          <li className="nav__item">
+            <Link href="#skills">
+              <a className="nav__link skills">
                 <BiBook />
               </a>
             </Link>
           </li>
-          <li className='nav__item'>
-            <Link href='#work'>
-              <a className='nav__link work'>
+          <li className="nav__item">
+            <Link href="#work">
+              <a className="nav__link work">
                 <BiBriefcaseAlt2 />
               </a>
             </Link>
           </li>
-          <li className='nav__item'>
-            <Link href='#contact'>
-              <a className='nav__link contact'>
+          <li className="nav__item">
+            <Link href="#contact">
+              <a className="nav__link contact">
                 <BiMessageSquareMinus />
               </a>
             </Link>
@@ -62,14 +62,14 @@ const Navbar = () => {
       {/* <!-- Theme change --> */}
       {mode === "dark" ? (
         <BiMoon
-          className='change-theme'
-          id='theme-button'
+          className="change-theme"
+          id="theme-button"
           onClick={handleTheme}
         />
       ) : (
         <BiSun
-          className='change-theme'
-          id='theme-button'
+          className="change-theme"
+          id="theme-button"
           onClick={handleTheme}
         />
       )}

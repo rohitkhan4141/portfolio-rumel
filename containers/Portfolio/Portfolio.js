@@ -5,6 +5,12 @@ import PortFolioCard from "./PortFolioCard";
 
 const portfolioContent = [
   {
+    name: "Khejuka",
+    img: "/Assets/Khejuka.PNG",
+    Link: "https://khejuka.com/",
+    tags: "Wordpress",
+  },
+  {
     name: "Watch's World",
     img: "/Assets/watchs-world.png",
     Link: "https://final-project-25a6d.web.app/",
@@ -17,10 +23,10 @@ const portfolioContent = [
     tags: "React Apps",
   },
   {
-    name: "Photographer Portfolio",
-    img: "/Assets/photographer.png",
-    Link: "https://dev-photographyy.pantheonsite.io/",
-    tags: "Wordpress",
+    name: "Docify",
+    img: "/Assets/Docify.PNG",
+    Link: "https://docify-hub-client.vercel.app/",
+    tags: "React Apps",
   },
 
   {
@@ -37,16 +43,10 @@ const portfolioContent = [
   },
 
   {
-    name: "Yoga",
-    img: "/Assets/yoga.png",
-    Link: "https://dev-yogasweets.pantheonsite.io/",
+    name: "Investor Tips",
+    img: "/Assets/in.PNG",
+    Link: "https://www.thriftyinvestortips.com/",
     tags: "Wordpress",
-  },
-  {
-    name: "Coinbase",
-    img: "/Assets/coinbase.png",
-    Link: "https://github.com/rohitkhan4141",
-    tags: "Blockchain",
   },
 ];
 
@@ -63,9 +63,9 @@ const Portfolio = () => {
     }
   };
   return (
-    <section className='work section sec' id='work'>
-      <TitleSection subtitle='My Portfolio' sectionName='Recent Works' />
-      <div className='work__filters'>
+    <section className="work section sec" id="work">
+      <TitleSection subtitle="My Portfolio" sectionName="Recent Works" />
+      <div className="work__filters">
         {["All", "React Apps", "Wordpress", "Js Websites"].map(
           (item, index) => (
             <span
@@ -81,7 +81,7 @@ const Portfolio = () => {
         )}
       </div>
 
-      <motion.div layout className='work__container container grid'>
+      <motion.div layout className="work__container container grid">
         <AnimatePresence>
           {filterWork.map((work, index) => (
             <PortFolioCard
