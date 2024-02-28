@@ -35,11 +35,11 @@ const Hero = () => {
         </div>
         <div className="home__handle">
           <Image
-            src="/Assets/test3.png"
+            src="/Assets/rum.jpeg"
             alt=""
             className="home__img"
-            width={700}
-            height={660}
+            width={350}
+            height={500}
           />
         </div>
         <div className="home__social">
